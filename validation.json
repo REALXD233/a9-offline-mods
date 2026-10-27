@@ -1,0 +1,76 @@
+{
+  "schema": "A9MOD_MANAGER_PUBLIC_ALPHA_VALIDATION_V1",
+  "release": "v0.2.0-alpha.1",
+  "EXE_sha256": "6649513a072f36678b717fb1fa52e7787ca6664a933d67e9236ba2deda369c6a",
+  "checks": {
+    "final-source-tests.json": {
+      "sha256": "9b0cde1411e83fc9b04980e37c2207ff3f7079ef440aa3ef633855c8880a324a",
+      "passed": true,
+      "tests": 21,
+      "skipped": 0
+    },
+    "standalone-tests.json": {
+      "sha256": "e55d4a097708948f90b0cdea2b43a8d809002cddc4875511d71413450d1d694f",
+      "passed": true,
+      "tests": 21,
+      "skipped": 2
+    },
+    "final-ui-workflow.json": {
+      "sha256": "bd7a3fd0b19fa76272fa672d23066808f6ec2bec93a5705dcefa9dc550f0ac26",
+      "passed": true
+    },
+    "actual-module-matrix.json": {
+      "sha256": "f5212122941edd05b652289d15081411ee43654b5c486d78eb686e0e94632c9a",
+      "passed": true
+    },
+    "physical-all-four-check.json": {
+      "sha256": "c1bb0f8b0677384ab93002726dceb97627af11452dd453f2fa97c6ae4558dfa1",
+      "passed": true
+    },
+    "r200-gin-upgrade-physical-check.json": {
+      "sha256": "024f54425862b9615beafc5844be39ae7c4b55d4bda8ecfa5b7c4240860696a2",
+      "passed": true
+    },
+    "standalone-ui.json": {
+      "sha256": "2cc41b742181fc14c66f326c67b8dbf642af77277004bc93fc3c1ac6a6c2fa39",
+      "passed": true,
+      "visible_module_rows": 4,
+      "core_hidden": true
+    }
+  },
+  "source_SHA256": {
+    "app.py": "3c2016a61b8b08bb630d18ad1a2f2a493ba237575e2e4ab261a4d6acc28c2a5d",
+    "engine.py": "6c6654d4e463571398d6cd471b93f82952d1016a3dd12585ee6d34cad4ad4591",
+    "resources.py": "0698e6f40eeeb85ad8bdaff6fa55689c848db5eb46f2e0cfeede01cbe24d6804",
+    "demo.py": "0f0bb48b6f4d8c25cba6205683beac4b87ffb9b5273d9de7708270ad26fc42ab",
+    "baseline_profiles.py": "450c4bf85611e69e771811d48aa69df9ae50c4b1c5c3d5c0083cb945a1c6f6e1",
+    "selftest.py": "ea0ed5dba96d11032311a449c1642664d5922319d02b348ba98259e64ae6197b",
+    "check_ui_workflow.py": "95ea40ca990470fad98e027621737f547ca7596be8c3d3f9f4f0efa036962178",
+    "composition.py": "1c3006b4eadc31783395879c97debf075e2a3c360cd903c15a57e36dfb162939",
+    "filter207.py": "c0100742099b618b8055df42c9ce6825d860a79bb740dd42bc9eab4e7b900509",
+    "group_packages.py": "d8b4b5a457e467a91a024de3914c542d5f49582f1d5a5f9c32a8cac898d76eee",
+    "idb207.py": "4794b01db046cefc5585b385e455dd71e78a9b6ec9fec3abf9d952e92028b0b0",
+    "loader207.py": "4a259753d2604b9d2b843e027983fc9e8021253a4abce832387427cd871b1dda",
+    "native_aliases207.py": "327298b1d14ec24228a3c8719616447c3dc327bc0c30438ea6d9fd4d7d03f4d5",
+    "network207.py": "45ab7d7857e5c91a268c174f94b1679946bb05a0073392cba4971e28b73e6b3e",
+    "official207.py": "2dad22425d317b4c532e6f1a9b6aa10b2e6982e83c8e4f4cbc17e68d78d9bf54",
+    "server207.py": "1e83011a12020c2be5ac023e2c486ef1502bc1d7bb2e3d3aef242b26e517a5a0",
+    "trusted207.py": "7a9f100b97657f62e9f35210c537beabd0929c8b8a3755da831c24c0f028eb85",
+    "vendor-provenance.json": "9daebd1203f3fb5f434d7a7f199b88b113007f587ccfbe79d382980c7c02f80d",
+    "package_release207.py": "b801fb2bb88fc33f39347f5da246fbe604eb897df5e97e0673babf7cbea8113e"
+  },
+  "real_game_modified": false,
+  "personal_data_read": false,
+  "runtime_accepted": false,
+  "supported_adopted_baselines": [
+    "r200",
+    "r203",
+    "r206"
+  ],
+  "module_bytes": 117439830,
+  "limits": [
+    "Static and isolated tests do not replace manual game acceptance.",
+    "Only known integrated baselines accepted.",
+    "Hashes check integrity; publisher signatures are not implemented."
+  ]
+}

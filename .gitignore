@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+ManagerData/
+.a9mod-manager/
+*.pack
+*.zip
+*.exe
+*.dll
+build/
+dist/

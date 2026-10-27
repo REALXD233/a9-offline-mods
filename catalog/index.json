@@ -1,0 +1,86 @@
+{
+  "schema": "A9MOD_REMOTE_CATALOG_V2",
+  "channel": "public_alpha",
+  "release": "v0.2.0-alpha.1",
+  "runtime_accepted": false,
+  "modules": [
+    {
+      "id": "a9.core",
+      "title": "公共运行框架",
+      "version": "0.2.0-local207",
+      "bytes": 39949079,
+      "sha256": "13e72eb9c6913d62336285db9ebcfba0c392489227ad40b497c2b3465bcfa972",
+      "manifest_sha256": "4734a56295214892ede1560e2c2076df4363a8ed55732340ba3dcc4225ad7889",
+      "description": "自动依赖；统一加载器、服务端、界面底座和安全合成。 本次独立模块接入为本地测试版，仍需游戏内验收。",
+      "requires": [],
+      "vehicle_ids": [],
+      "url": "https://github.com/REALXD233/a9-offline-mods/releases/download/v0.2.0-alpha.1/a9.core-0.2.0.a9mod.zip"
+    },
+    {
+      "id": "a9.career-restart",
+      "title": "生涯快速重开",
+      "version": "0.2.0-local207",
+      "bytes": 872,
+      "sha256": "bf841e2163603482ce3c9dda58edf41bf516eb5b0d32ad021b028d377ce0cf2c",
+      "manifest_sha256": "25be606fdeb649cbce5134871abd23d1331d863cf8839cedb0bb77ddfa974c3d",
+      "description": "同场赛事快速重开，保留已有暂停按钮尺寸、位置与出现／消失动画。 本次独立模块接入为本地测试版，仍需游戏内验收。",
+      "requires": [
+        "a9.core"
+      ],
+      "vehicle_ids": [],
+      "url": "https://github.com/REALXD233/a9-offline-mods/releases/download/v0.2.0-alpha.1/a9.career-restart-0.2.0.a9mod.zip"
+    },
+    {
+      "id": "a9.fastest-car",
+      "title": "fastest car",
+      "version": "0.2.0-local207",
+      "bytes": 866,
+      "sha256": "5c63c91ae78b3a7fe2176b1825f02d79998d53db0c00b59ed673f91f417d3abc",
+      "manifest_sha256": "300b36947916990bde053333bd8b31683e3df40799b53f2e341b3090f3045800",
+      "description": "1003，六星、13级及进口件兼容满改。6767为测试性能分，面板不宣称官方还原。 本次独立模块接入为本地测试版，仍需游戏内验收。",
+      "requires": [
+        "a9.core"
+      ],
+      "vehicle_ids": [
+        1003
+      ],
+      "url": "https://github.com/REALXD233/a9-offline-mods/releases/download/v0.2.0-alpha.1/a9.fastest-car-0.2.0.a9mod.zip"
+    },
+    {
+      "id": "a9.cn-four-cars",
+      "title": "国服四车＋氮气功能",
+      "version": "0.2.0-local207",
+      "bytes": 54861479,
+      "sha256": "83244fe0a9d17c01379ee283984a96826bdccdc54da7a3be6bde1ac033bceec2",
+      "manifest_sha256": "9667a4949ed14f24783051f82563e1bf8d29d051a83103e67b53537ac4157de0",
+      "description": "F5R 5018、Jesko Absolut 5002、Tourbillon 5021、Silver Lightning 5009。含F5R／国服Jesko氮气选择与已验收兼容特效；不含204—206动画实验，JANIM及持续预览仍有已知限制。 本次独立模块接入为本地测试版，仍需游戏内验收。",
+      "requires": [
+        "a9.core"
+      ],
+      "vehicle_ids": [
+        5018,
+        5002,
+        5021,
+        5009
+      ],
+      "url": "https://github.com/REALXD233/a9-offline-mods/releases/download/v0.2.0-alpha.1/a9.cn-four-cars-0.2.0.a9mod.zip"
+    },
+    {
+      "id": "a9.alu-two-cars",
+      "title": "ALU 两车",
+      "version": "0.2.0-local207",
+      "bytes": 22627534,
+      "sha256": "62545cba077246c51ebc217cbae7383254f8d08fe5a4296c48732386c4606809",
+      "manifest_sha256": "28393b701a4777ef3436fce5c2f63614c05fc345664bd534250ccad35ed581df",
+      "description": "Jesko Absolut 294、Imperium 345。ALU模型、已验收碳纤维兼容材质和尾焰方向修正；旧引擎与最新ALU物理一致性尚未证实，重生外壳仍需验收。 本次独立模块接入为本地测试版，仍需游戏内验收。",
+      "requires": [
+        "a9.core"
+      ],
+      "vehicle_ids": [
+        294,
+        345
+      ],
+      "url": "https://github.com/REALXD233/a9-offline-mods/releases/download/v0.2.0-alpha.1/a9.alu-two-cars-0.2.0.a9mod.zip"
+    }
+  ]
+}

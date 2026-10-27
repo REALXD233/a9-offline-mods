@@ -1,0 +1,2 @@
+# Known, byte-verified loader resource-pin layouts. Never scan/patch arbitrary DLLs.
+PROFILES={'6ba328757f724ee56a2131ae7539842c9f53da795e9144539871872ed54d39c9': {'revision': 206, 'main.pack': 'c583a26f689d39708fda736d9db622cf5ea8b97271567cfdcf46bfd97ba5bdfb', 'gin.pack': '78785b8209fc2aa32f6def9c5ce0bf848d9ae9b16513d031e79f31595d3106cd', 'main_offset': 70768, 'gin_offset': 70800, 'checksum_offset': 208}}

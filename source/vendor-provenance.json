@@ -1,0 +1,18 @@
+[
+  {
+    "name": "c9_packaged_resource_index.py",
+    "source_sha256": "276d83e6c09910b86b0f7ce698b22c87ca72fbfb9c53703736c650e401749c6e",
+    "copied_byteexact": true
+  },
+  {
+    "name": "c9_classic32_directory_136.py",
+    "source_sha256": "29c0930f523ec8f468cdef6e096f17f1137daf59c31e8024166dcd133890c443",
+    "copied_byteexact": true
+  },
+  {
+    "name": "c9_port_pack_writer_124.py",
+    "source_sha256": "59a665d8fe0ff20a9c9b87dce1eda1146e616cde2b8ac09e239a266a99030ff2",
+    "derived_sha256": "692a770a017dc0c7b74c9f770d1451d6348afa4d27ae44d0af5d46e121f17db3",
+    "scope": "Pure encryption/encoding, manifest replacement, and pack writer only; excludes audit/database tooling."
+  }
+]
